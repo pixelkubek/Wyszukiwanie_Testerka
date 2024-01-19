@@ -1,0 +1,4 @@
+wys.cpp
+*.e
+log.txt
+memcheck.log
