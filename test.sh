@@ -25,7 +25,7 @@ do
     esac
 done
 
-echo -e "Paramatry testu: n: [$nMin, $nMax], k: [$kMin, $kMax], g: $g, a: $all, v: $valgr\n" > ./log.txt
+echo -e "Paramatry testu: n: [$nMin, $nMax], k: [$kMin, $kMax], g: $g, a: $all, v: $valgr, f: $forceContinue\n" > ./log.txt
 g++ @opcjeCpp wys.cpp testerka.cpp -o wys.e
 
 for n in $(seq $nMin $nMax)
