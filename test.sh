@@ -34,7 +34,7 @@ do
     do
         for kl in $(seq $klMin $klMax)
         do
-            seed=$(( ((((($g*10)+$k)*10) + $n) * 100) + $kl))
+            seed=$(( ((($k*100) + $n) * 1000) + $kl))
             input="$n $k $g $kl $all $seed\n"
             echo -ne "Aktualne parametry: $input"
             if [ "$valgr" = false ]

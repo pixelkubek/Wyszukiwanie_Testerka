@@ -3,7 +3,12 @@ Program wykonuje domyślnie 10000 gier dla każdej możliwej kombinacji n, k ora
 
 Wyniki wykonań programu dla kolejnych wartości będą zapisane w pliku log.txt. Można te pliki porównać z innymi osobami, by sprawdzić, czy strategia jest optymalna.
 
-Dla danych parametrów g, n, k, kl będą tworzone takie same testy.
+Dla danych parametrów n, k, kl będą tworzone takie same testy.
+
+**Uwaga!** Dwa optymalne rozwiązania mogą tworzyć różne wyniki dla niedostatecznie dużych g, np. dla n = 3 i k = 0 pytania 2 i 3 są równoważne w ogólności, ale mają inne wyniki w zależności od odpowiedzi Ali, dlatego, aby wyniki były porównywalne warto wywyołać skrypt np. z "-g 1000000",
+mimo że wykracza to poza specyfikację zadania.
+
+Jeśli ktoś znajdzie bardziej optymalne wyniki, to proszę o wiadomość.
 
 ## Komenda do wywołania
 Należy umieścić w folderze plik wys.cpp z kodem.

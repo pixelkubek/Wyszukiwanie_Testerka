@@ -36,7 +36,7 @@ void odpowiedz(int x)
 {
     klamstwa = 0;
     if (x != _x) {
-        std::cout << "ZLE. Bledna odpowiedz w grze #" << ileGier << ": oczekiwano " << _x << " a uzyskano odpowiedz " << x << "\n";
+        std::cout << "ZLE. Bledna odpowiedz w grze #" << ileGier << ": oczekiwano " << _x << " a uzyskano odpowiedz " << x << "\n\n";
         exit(1);
     }
 
