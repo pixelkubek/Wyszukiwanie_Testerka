@@ -21,7 +21,7 @@ void dajParametry(int &n, int &k, int &g) {
     _x = rand() % n + 1;
 
     ileGier = ileZapytan;
-    std::cout << "n = " << _n << ", k = " << _k << ", g = " << _g << ", klamliwosc = " << klamliwosc << "%\n";
+    std::cout << "n = " << _n << ", k = " << _k << ", klamliwosc = " << klamliwosc << "%, seed = " << seed << "\n";
 }
 
 bool mniejszaNiz(int y) {
