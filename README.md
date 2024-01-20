@@ -16,7 +16,6 @@ Należy umieścić w folderze plik wys.cpp z kodem.
 bash ./test.sh
 ```
 Flagi
-- -v użycie valgrinda (w przypadku błędu informacja pojawi się w pliku memcheck.log)
 - -a wyswietlenie ilości pytań dla wszystkich gier
 - -f wykonywanie dalszych testów po napotkaniu błędu
 - -g zmiana ilości gier dla danych parametrów na podaną ilość
